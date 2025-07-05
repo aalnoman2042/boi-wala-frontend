@@ -10,12 +10,12 @@ export const Home = () => {
   return (
     <div>
             {/* <Navbar></Navbar> */}
-            <Slider></Slider>
         {/* <h1 className="text-8xl text-center text-[#53877A] uppercase">welcome to boi-wala</h1> */}
+            <Slider></Slider>
       
         <AllBooks></AllBooks>
         {/* <Footer></Footer> */}
-            {/* <Outlet></Outlet> */}
+            
     </div>
   )
 }

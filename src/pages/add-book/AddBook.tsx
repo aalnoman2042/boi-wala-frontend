@@ -50,8 +50,8 @@ export const AddBook = () => {
   setTimeout(() => {
       navigate("/books");
     }, 3000);
-    } catch (err : unknown) {
-      setModalData({ message: err.data.error._message, type: "error" });
+    } catch (error: any) {
+      setModalData({ message: error.data.error._message, type: "error" });
       // console.error(err);
     }
   };
