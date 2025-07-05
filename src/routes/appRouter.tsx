@@ -10,8 +10,8 @@ import Layout from '../layout/layout';
 export default function AppRouter() {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
+      <Route  path="/" element={<Layout />}>
+        <Route  index element={<Home />} />
         <Route path="books" element={<AllBooks />} />
         <Route path="create-book" element={<AddBook />} />
         <Route path="borrow-summary" element={<BorrowSummery />} />

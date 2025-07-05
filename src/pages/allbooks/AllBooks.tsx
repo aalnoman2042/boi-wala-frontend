@@ -85,7 +85,7 @@ export function AllBooks() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-6">
-      <h2 className="text-2xl font-bold mb-6">All Books</h2>
+      <h2 className="text-2xl font-bold mb-6 uppercase text-[#53877A]">all books</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
   {books.map((book: IBook) => (
